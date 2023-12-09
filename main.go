@@ -1,14 +1,14 @@
 package main
 
-import (
-	"learningGo/dataTypes"
-) 
+import goFoundation "learningGo/foundation"
 
 func main() {
-	// dataTypes.PlayWithString()
-	// dataTypes.PlayWithNumber()
-	// dataTypes.PlayWithArray()
-	// dataTypes.PlayWithSlice()
-	// dataTypes.PlayWithStdLib()
-	dataTypes.PlayWithLoop()
+	// goFoundation.PlayWithString()
+	// goFoundation.PlayWithNumber()
+	// goFoundation.PlayWithArray()
+	// goFoundation.PlayWithSlice()
+	// goFoundation.PlayWithStdLib()
+	// goFoundation.PlayWithLoop()
+	// goFoundation.PlayWithBoolean()
+	goFoundation.PlayWithCondition()
 }

@@ -1,4 +1,4 @@
-package dataTypes
+package goFoundation
 
 import "fmt"
 
