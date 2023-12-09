@@ -2,7 +2,7 @@ package dataTypes
 
 import "fmt"
 
-func PrintString() {
+func PlayWithString() {
 	// Println
 	var firstName string = "Mario"
 	var middleName = " "

@@ -5,6 +5,10 @@ import (
 ) 
 
 func main() {
-	dataTypes.PrintString()
-	// dataTypes.PrintNumber()
+	// dataTypes.PlayWithString()
+	// dataTypes.PlayWithNumber()
+	// dataTypes.PlayWithArray()
+	// dataTypes.PlayWithSlice()
+	// dataTypes.PlayWithStdLib()
+	dataTypes.PlayWithLoop()
 }

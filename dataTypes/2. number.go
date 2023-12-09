@@ -2,7 +2,7 @@ package dataTypes
 
 import "fmt"
 
-func PrintNumber() {
+func PlayWithNumber() {
 	// Ints
 	var initOne int = 28
 	var initTwo = 30
