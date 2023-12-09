@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"learningGo/dataTypes"
+) 
 
 func main() {
-	fmt.Println("Hello world")
+	dataTypes.PrintString()
+	// dataTypes.PrintNumber()
 }
