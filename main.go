@@ -1,6 +1,6 @@
 package main
 
-import goFoundation "learningGo/foundation"
+import goFoundation "learningGo/2_foundation"
 
 func main() {
 	// goFoundation.PlayWithString()
@@ -11,5 +11,6 @@ func main() {
 	// goFoundation.PlayWithLoop()
 	// goFoundation.PlayWithBoolean()
 	// goFoundation.PlayWithCondition()
-	goFoundation.PlayWithFunction()
+	// goFoundation.PlayWithFunction()
+	goFoundation.PlayWithMap()
 }
