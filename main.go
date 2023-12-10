@@ -10,5 +10,6 @@ func main() {
 	// goFoundation.PlayWithStdLib()
 	// goFoundation.PlayWithLoop()
 	// goFoundation.PlayWithBoolean()
-	goFoundation.PlayWithCondition()
+	// goFoundation.PlayWithCondition()
+	goFoundation.PlayWithFunction()
 }
