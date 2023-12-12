@@ -13,5 +13,6 @@ func main() {
 	// goFoundation.PlayWithCondition()
 	// goFoundation.PlayWithFunction()
 	// goFoundation.PlayWithMap()
-	goFoundation.PlayWithPassByValue()
+	// goFoundation.PlayWithPassByValue()
+	goFoundation.PlayWithPointer()
 }
