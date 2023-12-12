@@ -12,5 +12,6 @@ func main() {
 	// goFoundation.PlayWithBoolean()
 	// goFoundation.PlayWithCondition()
 	// goFoundation.PlayWithFunction()
-	goFoundation.PlayWithMap()
+	// goFoundation.PlayWithMap()
+	goFoundation.PlayWithPassByValue()
 }
