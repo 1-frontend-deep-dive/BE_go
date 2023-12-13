@@ -15,5 +15,6 @@ func main() {
 	// goFoundation.PlayWithMap()
 	// goFoundation.PlayWithPassByValue()
 	// goFoundation.PlayWithPointer()
-	goFoundation.PlayWithStruct()
+	// goFoundation.PlayWithStruct()
+	goFoundation.PlayWithReceiverFunction()
 }
