@@ -1,12 +1,20 @@
 package goFoundation
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
+
+/*
+	A slice is a dynamically-sized array which is built on top of array (fixed-sizes)
+*/
 
 func PlayWithSlice() {
 	// Slices: no fixed size
 	var scores = []int{20, 40, 80}
 	scores[2] = 60
 	scores = append(scores, 100)
+	sort.Ints(scores)
 
 	fmt.Println(scores, len(scores))
 
@@ -16,7 +24,7 @@ func PlayWithSlice() {
 	rangeTwo := names[2:]
 	rangeThree := names[:2]
 
-	fmt.Println(rangeOne, len(rangeOne))
-	fmt.Println(rangeTwo, len(rangeTwo))
-	fmt.Println(rangeThree, len(rangeThree))
+	fmt.Println(rangeOne, len(rangeOne), cap(rangeOne))
+	fmt.Println(rangeTwo, len(rangeTwo), cap(rangeTwo))
+	fmt.Println(rangeThree, len(rangeThree), cap(rangeThree))
 }

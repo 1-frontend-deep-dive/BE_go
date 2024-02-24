@@ -2,6 +2,10 @@ package goFoundation
 
 import "fmt"
 
+/*
+ Struct is a user-defined type to store a collection of different fields into a single field
+*/
+
 type Bill struct {
 	name string
 	items map[string]float64

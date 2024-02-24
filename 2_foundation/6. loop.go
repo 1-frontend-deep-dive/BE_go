@@ -11,8 +11,8 @@ func PlayWithLoop() {
 	}
 
 	fmt.Println("---------------------------------------")
-	names := [5]string{"mario", "puzzo", "james", "yoshi", "kenta"}
 
+	names := [5]string{"mario", "puzzo", "james", "yoshi", "kenta"}
 	for i := 0; i < len(names); i++ {
 		fmt.Println("Item of names array is: ", names[i])
 	}
@@ -25,7 +25,19 @@ func PlayWithLoop() {
 
 	fmt.Println("---------------------------------------")
 
-	for _, value := range names {
-		fmt.Printf("Item of names array is %v \n", value)
+	for _, nameValue := range names {
+		fmt.Printf("Item of names array is %v \n", nameValue)
+	}
+
+	fmt.Println("---------------------------------------")
+
+	animals := map[string]string{
+		"dog": "Spike",
+		"cat": "Tom",
+		"mouse": "Jerry",
+	}
+
+	for aniKey, aniValue := range animals {
+		fmt.Printf("The %s has name %s\n", aniKey, aniValue)
 	}
 }

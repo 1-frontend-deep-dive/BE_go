@@ -2,7 +2,9 @@ package goFoundation
 
 import "fmt"
 
-// A pointer holds the memory address of a value
+/*
+	A pointer holds the memory address of a value
+*/
 
 func updateName(x *string) {
 	*x = "wedge"

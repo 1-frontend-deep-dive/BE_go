@@ -16,5 +16,7 @@ func main() {
 	// goFoundation.PlayWithPassByValue()
 	// goFoundation.PlayWithPointer()
 	// goFoundation.PlayWithStruct()
-	goFoundation.PlayWithReceiverFunction()
+	// goFoundation.PlayWithReceiverFunction()
+	// goFoundation.PlayWithUserInput()
+	goFoundation.PlayWithInterface()
 }

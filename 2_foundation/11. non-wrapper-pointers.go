@@ -6,14 +6,15 @@ import "fmt"
 // Non-pointer Values: strings, ints, floats, booleans, arrays, structs
 // Pointer Wrapper Values: slices, maps, functions
 
-func passByValue(x string, newValue string) {
-	x = newValue
-}
 
 func passByReference(x map[string]string, keyName string, newValue string) {
 	// the key of the map stores the pointer of the value
 	// a new copy of people variable (x) was created along with the pointers of value
 	x[keyName] = newValue
+}
+
+func passByValue(x string, newValue string) {
+	x = newValue
 }
 
 func PlayWithPassByValue() {

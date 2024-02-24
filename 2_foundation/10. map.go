@@ -2,6 +2,10 @@ package goFoundation
 
 import "fmt"
 
+/*
+	Maps are used to store data values in key:value pairs
+*/
+
 func PlayWithMap() {
 	menu := map[string]float64{
 		"soup":           4.99,
@@ -30,6 +34,7 @@ func PlayWithMap() {
 	}
 
 	phoneBook[4444] = "kenta"
+	delete(phoneBook, 2222)
 
 	for key, value := range phoneBook {
 		fmt.Printf("%v\t - %v\n", key, value)
