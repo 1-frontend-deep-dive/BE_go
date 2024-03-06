@@ -8,7 +8,8 @@ func PlayWithString() {
 	var middleName = " "
 	lastName := "Puzo" // shorthand of above, can only used in a function
 	
-	fmt.Println(firstName + middleName +  lastName)
+	fullName := fmt.Sprintf("%s - %s - %s", firstName, middleName, lastName)
+	fmt.Println(fullName)
 
 	// Printf
 	person1 := "James"
