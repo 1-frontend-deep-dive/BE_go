@@ -2,6 +2,10 @@ package goFoundation
 
 import "fmt"
 
+/*
+ * An interface type is defined as a set of method signatures
+ */
+
 type Vehicle interface {
 	isRunning() bool
 	getSpeed() string

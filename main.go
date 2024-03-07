@@ -1,9 +1,7 @@
 package main
 
-import (
-	goApplication "learningGo/3_application"
-)
+import goFoundation "github.com/anhthi-deep-dive/BE_go/2_foundation"
 
 func main() {
-	goApplication.RungAppMain()
+	goFoundation.PlayWithChannel()
 }

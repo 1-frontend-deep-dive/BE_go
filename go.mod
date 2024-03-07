@@ -1,4 +1,4 @@
-module learningGo
+module github.com/anhthi-deep-dive/BE_go
 
 go 1.21.5
 

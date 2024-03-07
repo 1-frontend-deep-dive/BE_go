@@ -1,0 +1,3 @@
+package goFoundation
+
+func PlayWithCurrency() {}

@@ -19,10 +19,10 @@ func createBill() Bill {
 
 	name, _ := getInput("Create a new bill name: ", reader)
 
-	b := newBill(name)
-	fmt.Print("Created the bill - ", b.name)
+	bill, cashier := newBill(name)
+	fmt.Printf("The bill %s is created by cashier %s", bill.name, cashier.fullname)
 
-	return b
+	return bill
 }
 
 func promptOptions (b Bill) {
