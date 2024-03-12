@@ -1,7 +1,7 @@
 package main
 
-import goFoundation "github.com/anhthi-deep-dive/BE_go/2_foundation"
+import goDesignPattern "github.com/anhthi-deep-dive/BE_go/4_design-patterns/repository-pattern"
 
 func main() {
-	goFoundation.PlayWithTesting()
+	goDesignPattern.PlayWithRepoDP()
 }

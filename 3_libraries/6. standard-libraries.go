@@ -1,4 +1,4 @@
-package goFoundation
+package goLibraries
 
 import (
 	"fmt"
