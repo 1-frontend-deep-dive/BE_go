@@ -50,5 +50,6 @@ func PlayWithReceiverFunction() {
 	myCard := newCart("mario's cart")
 	myCard.addItem("Onion soup", 4.5)
 	myCard.updateTip(10)
+	
 	fmt.Println(myCard.format())
 }

@@ -53,8 +53,16 @@ func (m Motorbike) getSpeed() string {
 
 /* Get driving info */
 
-func getDrivingInfo(v Vehicle) {
+func getDrivingInfo1(v Vehicle) {
 	fmt.Printf("getSpeed of %T return: %s\n", v, v.getSpeed())
+}
+
+func getDrivingInfo2(name string) Vehicle {
+	return Car{
+		name: name,
+		currentSpeed: 380,
+		price: 38000,
+	}
 }
 
 func PlayWithInterface() {
@@ -70,6 +78,9 @@ func PlayWithInterface() {
 		color: "blue",
 	}
 
-	getDrivingInfo(mercedes)
-	getDrivingInfo(s1000rr)
+	getDrivingInfo1(mercedes)
+	getDrivingInfo1(s1000rr)
+
+	carVehicle := getDrivingInfo2("BMW X6")
+	fmt.Println(carVehicle)
 }

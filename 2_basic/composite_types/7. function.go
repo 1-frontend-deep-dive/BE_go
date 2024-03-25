@@ -29,12 +29,14 @@ func getFirstAndLastName(name string)(string, string) {
 
 func PlayWithFunction() {
 	sayGreeting("Mario")
+
 	fmt.Println("---------------------------------------")
 	cycleNames([]string {"cloud", "barret", "ben"}, sayGreeting)
+
 	fmt.Println("---------------------------------------")
 	fmt.Printf("Sum of %v and %v is %v \n", 2, 4, plus(2, 4))
+
 	fmt.Println("---------------------------------------")
 	firstName, lastName := getFirstAndLastName("James Cameron");
-	fmt.Println("First name: \t", firstName)
-	fmt.Println("Last name: \t", lastName)
+	fmt.Println("%v - %v \t", firstName, lastName)
 }
