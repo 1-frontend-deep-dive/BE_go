@@ -1,7 +1,7 @@
 package main
 
-import goCompositeTypes "github.com/anhthi-deep-dive/BE_go/2_basic/composite_types"
+import goBasic "github.com/anhthi-deep-dive/BE_go/2_basic"
 
 func main() {
-	goCompositeTypes.PlayWithSlice()
+	goBasic.PlayWithClosure()
 }
