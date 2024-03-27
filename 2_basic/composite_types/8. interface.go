@@ -80,7 +80,10 @@ func PlayWithInterface() {
 
 	getDrivingInfo1(mercedes)
 	getDrivingInfo1(s1000rr)
-
+ 
 	carVehicle := getDrivingInfo2("BMW X6")
 	fmt.Println(carVehicle)
+
+	var inter Vehicle = mercedes
+	fmt.Println(inter)
 }
