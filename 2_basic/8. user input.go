@@ -7,6 +7,35 @@ import (
 	"strings"
 )
 
+type Cashier struct {
+	fullname string
+	age int
+}
+
+
+type Bill struct {
+	name string
+	items map[string]float64
+	tip  float64
+}
+
+func newBill(name string) (Bill, Cashier) {
+	bill := Bill{
+		name:  name,
+		items: map[string]float64{
+			"coffee": 2.99,
+		},
+		tip:   0,
+	}
+
+	cashier := Cashier {
+		"Marina",
+		28,
+	}
+
+	return bill, cashier
+}
+
 func getInput(prompt string, r *bufio.Reader) (string, error) {
 	fmt.Println(prompt)
 	input, error := r.ReadString('\n')

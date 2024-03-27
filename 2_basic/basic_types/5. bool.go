@@ -1,4 +1,4 @@
-package goDataTypes
+package goBasicTypes
 
 import "fmt"
 

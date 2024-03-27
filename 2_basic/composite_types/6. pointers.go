@@ -1,4 +1,4 @@
-package goBasic
+package goCompositeTypes
 
 import "fmt"
 
@@ -15,6 +15,8 @@ func PlayWithPointer() {
 
 	fmt.Println("Pointer address: \t", &name)
 	fmt.Println("Before update name: \t", name)
+
 	updateName(&name)
+	
 	fmt.Println("After update name: \t", name)
 }

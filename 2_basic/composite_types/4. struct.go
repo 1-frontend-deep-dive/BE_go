@@ -1,4 +1,4 @@
-package goDataTypes
+package goCompositeTypes
 
 import "fmt"
 
@@ -35,7 +35,7 @@ func newBill(name string) (Bill, Cashier) {
 }
 
 func PlayWithStruct() {
-	myBill, cashier := newBill("mario's bill")
+	myBill, cashier := NewBill("mario's bill")
 	
 	fmt.Println("My bill: ", myBill)
 	fmt.Println("Cashier: ", cashier)

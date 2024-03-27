@@ -1,1 +1,1 @@
-package goDataTypes
+package goBasicTypes

@@ -1,4 +1,4 @@
-package goBasic
+package goCompositeTypes
 
 import (
 	"fmt"

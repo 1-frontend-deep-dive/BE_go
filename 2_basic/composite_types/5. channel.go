@@ -1,4 +1,4 @@
-package goDeeper
+package goCompositeTypes
 
 import (
 	"fmt"
