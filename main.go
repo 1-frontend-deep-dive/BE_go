@@ -1,7 +1,7 @@
 package main
 
-import goBasic "github.com/anhthi-deep-dive/BE_go/2_basic"
+import goDeeper "github.com/anhthi-deep-dive/BE_go/3_deeper"
 
 func main() {
-	goBasic.PlayWithError()
+	goDeeper.PlayWithGoRoutines()
 }
